@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh; /* Ensures the body takes the full height of the viewport */
+    background-color: rgb(18, 18, 18);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    background-color: black;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: larger;
+    color: blueviolet;
+}
+
+.resetbtn {
+    margin-top: 20px; /* Adds space between the game box and reset button */
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: rgb(22, 0, 42);
+    color: #060006;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.resetbtn:hover {
+    background-color: #555; /* Changes button color on hover */
+}
